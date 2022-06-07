@@ -10,3 +10,15 @@
          console.log("the user loggedout");
      }
  }
+
+ 
+
+
+ user.login();                      //the user loggedin
+ user.logout();                     //the user loggedout
+
+ console.log(user.name);             //mina
+ console.log(user['age']);          //23
+
+ user.name = 'Nilofar';             // **** rewrite
+ console.log(user.name);            //Nilofar
