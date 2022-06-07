@@ -14,3 +14,6 @@ console.log(Math.floor(num2));              //8
 console.log(Math.ceil(num1));               //9
 console.log(Math.ceil(num2));               //9
 
+
+console.log(Math.trunc(num1));              //8
+console.log(Math.trunc(num2));              //8
