@@ -8,6 +8,10 @@
      },
      logout () {                                                  // function
          console.log("the user loggedout");
+     },
+     allLanguage: function(){                                     //function (this)
+        // console.log(this);                                      // this => object
+         this.language.forEach(la => console.log(la));
      }
  }
 
@@ -16,6 +20,7 @@
 
  user.login();                      //the user loggedin
  user.logout();                     //the user loggedout
+ user.allLanguage();
 
  console.log(user.name);             //mina
  console.log(user['age']);          //23
