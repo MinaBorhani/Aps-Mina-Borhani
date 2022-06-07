@@ -17,3 +17,13 @@ console.log(Math.ceil(num2));               //9
 
 console.log(Math.trunc(num1));              //8
 console.log(Math.trunc(num2));              //8
+
+
+
+console.log(Math.random());                 // 0 - 1 random
+
+const randomNum = Math.random();
+console.log(Math.round(randomNum));
+
+
+console.log(Math.round(randomNum * 100));
