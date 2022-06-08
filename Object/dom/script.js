@@ -18,10 +18,16 @@
 
 
 // get element by class name
-const getClass = document.getElementsByClassName('content');
-console.log(getClass);
+// const getClass = document.getElementsByClassName('content');
+// console.log(getClass);
 
 
 //get element by tag
-const getTag = document.getElementsByTagName('p');
-console.log(getTag);
+// const getTag = document.getElementsByTagName('p');
+// console.log(getTag);
+
+
+const paras = document.getElementById('page-title'); 
+console.log(paras.innerText);
+
+paras.innerText += ' new!!!';
