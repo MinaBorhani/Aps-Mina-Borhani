@@ -13,10 +13,15 @@
 
 
 // get element by Id
-const getId = document.getElementById('page-title');
-console.log(getId);
+// const getId = document.getElementById('page-title');
+// console.log(getId);
 
 
 // get element by class name
 const getClass = document.getElementsByClassName('content');
 console.log(getClass);
+
+
+//get element by tag
+const getTag = document.getElementsByTagName('p');
+console.log(getTag);
